@@ -3,8 +3,8 @@
 docker build -t microservicio1 -f Docker/Dockerfile .
 
   build
-  -t <name of the image>
-  -f <ruta al archivo dockerfile>
+  -t name of the image
+  -f ruta al archivo dockerfile
    .
 
  ##Command to run the container
