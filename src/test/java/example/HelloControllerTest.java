@@ -1,4 +1,4 @@
-package com.example;
+package example;
 
 import com.example.controller.HelloController;
 import org.junit.jupiter.api.Test;
