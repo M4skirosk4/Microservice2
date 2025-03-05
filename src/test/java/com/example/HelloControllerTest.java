@@ -1,4 +1,4 @@
-package example;
+package com.example;
 
 import com.example.controller.HelloController;
 import org.junit.jupiter.api.Test;
@@ -18,8 +18,8 @@ public class HelloControllerTest {
 
     @Test
     public void testHelloEndpoint() throws Exception {
-        mockMvc.perform(get("/api/mensaje1"))
+        mockMvc.perform(get("/api/mensaje2"))
                 .andExpect(status().isOk()) // Expecting 200 OK
-                .andExpect(content().string("¡Hello Erik, I´m Microservice 1!"));
+                .andExpect(content().string("¡Hello Erik, I´m Microservice 2!"));
     }
 }
