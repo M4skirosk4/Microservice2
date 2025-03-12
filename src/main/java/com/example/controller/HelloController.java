@@ -1,3 +1,6 @@
+/**
+ * Esta clase es la que indica que se envía en la petición
+ */
 package com.example.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
