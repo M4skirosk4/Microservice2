@@ -1,5 +1,6 @@
 /**
  * Esta clase es la que indica que se envía en la petición
+ * Se añade este comentario para comprobar la configuración de los trigers
  */
 package com.example.controller;
 
