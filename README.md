@@ -1,6 +1,6 @@
 ## Command to create the docker image
 
-docker build -t microservicio1 -f Docker/Dockerfile .
+docker build -t microservicio2 -f Docker/Dockerfile .
 
   build
   -t name of the image
@@ -11,7 +11,7 @@ docker build -t microservicio1 -f Docker/Dockerfile .
 
 ## Command to run the container
 
- docker run -p 8081:8081 microservicio1
+ docker run -p 8081:8081 microservicio2
 
    run
 
